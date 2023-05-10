@@ -1,0 +1,36 @@
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #C4C4C4;
+  border-radius: 10%;
+  /* border: 1px solid black; */
+}
+
+.text-color-purple{
+  color: #2A0C62;
+}
+
+.border-purple{
+  border: 0.5px solid #2A0C62;
+}
+
+.bg-purple{
+  background-color: #2A0C62;
+}
+
+.margin-form{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.tam-diference{
+  height: 300px;
+}
+
+.carousel-legend{
+  right: 0% !important;
+  left: 0% !important;
+  background-color: #2A0C62;
+  opacity: 0.8;
+}
