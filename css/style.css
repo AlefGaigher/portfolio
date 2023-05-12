@@ -16,7 +16,7 @@
 }
 
 .border-purple{
-  border: 0.5px solid #2A0C62;
+  border: 4px solid #2A0C62;
 }
 
 .bg-purple{
@@ -37,6 +37,10 @@
   left: 0% !important;
   background-color: #2A0C62;
   opacity: 0.8;
+}
+
+.linear-bg{
+  background: linear-gradient(to bottom, #2A0C62 0%, #2A0C62 50%, #fff 51%, #fff 100%);
 }
 
 nav {
