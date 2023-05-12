@@ -38,3 +38,45 @@
   background-color: #2A0C62;
   opacity: 0.8;
 }
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  overflow: hidden;
+}
+
+nav a {
+  color: #fff;
+  opacity: 0.7;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0 20px;
+  position: relative;
+  line-height: 50px;
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+}
+
+nav a:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+nav a:hover:before {
+  width: 100%;
+}
+
+a:hover{
+  color: #fff !important;
+  opacity: 1;
+}
